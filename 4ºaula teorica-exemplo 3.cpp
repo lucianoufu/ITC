@@ -1,4 +1,4 @@
-/*Programa que dado um numero, calcula H, sendo que h é a  seguinte soma:
+/*Programa que dado um numero, calcula H, sendo que h Ã© a  seguinte soma:
 H=1/1 + 1/2 + 1/3 + ... + 1/n.*/
 #include <stdio.h>
 #include <conio.h>
@@ -14,7 +14,7 @@ int main()
 	h = h + 1/x;
 	x++;
 	}
-	printf("\nO valor da soma é: %f.", h);
+	printf("\nO valor da soma Ã©: %f.", h);
 	getch();
 	return 0;
 }
