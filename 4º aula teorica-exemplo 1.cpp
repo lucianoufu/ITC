@@ -1,4 +1,4 @@
-//Programa que mostra todos os pares à partir de 2 até o número digitado pelo usuário
+//Programa que mostra todos os pares Ã  partir de 2 atÃ© o nÃºmero digitado pelo usuÃ¡rio
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -11,10 +11,10 @@ int main()
 	while(x<=0)
 	{
 	system("cls");
-	printf("Digite um número possitivo: ");
+	printf("Digite um nÃºmero possitivo: ");
 	scanf("%d", &x);
 	}
-	printf("Os números pares são: ");
+	printf("Os nÃºmeros pares sÃ£o: ");
 	while(y<=x)
 	{
 		printf("%i, ",y);
